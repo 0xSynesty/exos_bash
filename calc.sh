@@ -1,3 +1,1 @@
-echo "Entrez un nombre"
-read a
-echo `expr $a \* $a`
+read -p "Entrez un nombre : " a; echo "Résultat : "`expr $a \* $a`
